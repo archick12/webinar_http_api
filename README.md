@@ -1,3 +1,6 @@
+# Useful links
+JIRA API - https://developer.atlassian.com/cloud/jira/platform/rest/#api-api-2-issue-post
+
 # About framework
 This frameowrk was created for manual QA who are familiar with Java and would like to automate Web API(HTTP).
 There are for layers in this example, which show how to implement "Abstraction Layers" to make the code more readable and 

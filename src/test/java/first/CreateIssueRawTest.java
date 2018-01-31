@@ -30,7 +30,7 @@ public class CreateIssueRawTest {
     String issueJSON = "{\"fields\":{" +
         "\"summary\":\"" + summary + "\"," +
         "\"issuetype\":{\"id\":\"" + issueType + "\"}," +
-        "\"project\":{\"id\":\"10508\"}," +
+        "\"project\":{\"id\":\"" + projectId + "\"}," +
         "\"reporter\":{\"name\":\"" + assignee + "\"}," +
         "\"assignee\":{\"name\":\"" + assignee + "\"}" +
         "}}";
