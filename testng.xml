@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HTTP API" parallel="classes" thread-count="3">
+
+    <listeners>
+        <listener class-name="utils.framework.SuiteListener"/>
+    </listeners>
+
+    <parameter name="myParam" value="This is the value for a parameter"/>
+
+
+    <test name="Tests for Issue CRUD">
+        <classes>
+            <!--<class name="first.CreateIssueRawTest"/>-->
+            <!--<class name="second.CreateIssueWithJSonObjectTest"/>-->
+            <!--<class name="third.CreateIssueWithPOJOTest"/>-->
+            <class name="forth.CreateIssueWithPOJOTest"/>
+        </classes>
+    </test>
+
+</suite>
