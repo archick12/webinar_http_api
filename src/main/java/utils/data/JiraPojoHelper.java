@@ -7,7 +7,6 @@ import pojo.Pojo;
 import pojo.issue.Credentials;
 import pojo.issue.Fields;
 import pojo.issue.Issue;
-import pojo.search.Search;
 import utils.api.Authorization;
 
 public class JiraPojoHelper {

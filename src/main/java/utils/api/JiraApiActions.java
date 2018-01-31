@@ -4,7 +4,6 @@ import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import org.testng.Assert;
 import pojo.issue.Issue;
-import pojo.search.Search;
 
 /**
  * Wrapper class for all possible actions in JIRA API

@@ -10,10 +10,10 @@
 
     <test name="Tests for Issue CRUD">
         <classes>
-            <!--<class name="first.CreateIssueRawTest"/>-->
+            <class name="first.CreateIssueRawTest"/>
             <!--<class name="second.CreateIssueWithJSonObjectTest"/>-->
             <!--<class name="third.CreateIssueWithPOJOTest"/>-->
-            <class name="forth.CreateIssueWithPOJOTest"/>
+            <!--<class name="forth.CreateIssueWithPOJOTest"/>-->
         </classes>
     </test>
 
